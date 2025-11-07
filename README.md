@@ -1,51 +1,33 @@
-# 💻 YouTube Downloader & Telegram Uploader [![License: MIT][License-Badge]](LICENSE)
+# 📲 YouTube to Telegram Notebook [![License: MIT][License-Badge]](LICENSE)
 
-This project provides a simple, command-line workflow to download a video from YouTube and upload it directly to a Telegram chat.
+This project provides a Jupyter Notebook to download a video from YouTube and upload it directly to a Telegram chat.
+
+<a href="https://colab.research.google.com/github/SudoR2spr/YouTube-Downloader-Colab/blob/main/YouTube_to_Telegram.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ## 🚀 Features
 
-*   **Download & Upload:** Seamlessly download a YouTube video and upload it to Telegram with a single command.
-*   **Automatic Cleanup:** The downloaded video file is automatically deleted after a successful upload to save space.
-*   **Easy to Use:** Just provide the YouTube URL, your Telegram Bot Token, and your Chat ID.
+*   **Interactive Interface:** A user-friendly interface within the notebook to enter your details and start the process.
+*   **All-in-One:** The entire workflow—downloading, uploading, and cleaning up—is handled within a single notebook.
+*   **No Local Setup:** You can run this directly in Google Colab without any local Python configuration.
 
 ## 🔧 How to Use
 
-### Prerequisites
+1.  **Open the Notebook:**
+    *   Click the "Open in Colab" badge above to launch the notebook in Google Colaboratory.
 
-1.  **Python 3:** Make sure you have Python 3 installed on your system.
-2.  **Required Libraries:** Install the necessary Python libraries by running:
-    ```bash
-    pip install python-telegram-bot yt-dlp
-    ```
+2.  **Run the Cells:**
+    *   Run the first code cell to install the necessary libraries.
+    *   Run the second code cell to define the helper functions for downloading and uploading.
 
-### Setup
+3.  **Enter Your Details:**
+    *   In the final cell, you will see an interactive form:
+        *   **YouTube URL:** Paste the URL of the video you want to download.
+        *   **Bot Token:** Enter your secure Telegram bot token. (You can get one from `@BotFather`).
+        *   **Chat ID:** Enter the ID of the chat where you want to send the video. (You can get this from `@userinfobot`).
 
-1.  **Get a Telegram Bot Token:**
-    *   Open Telegram and search for the `@BotFather` bot.
-    *   Start a chat with `BotFather` and send the `/newbot` command.
-    *   Follow the instructions to create a new bot.
-    *   `BotFather` will give you a unique API token. **Keep this token secure!**
-
-2.  **Get your Chat ID:**
-    *   Search for the `@userinfobot` on Telegram.
-    *   Start a chat with it, and it will immediately send you your user ID. This is your Chat ID for a private chat with your bot.
-    *   If you want to send the file to a group, add the bot to the group and send a message. The bot will reply with the group's ID.
-
-### Running the Script
-
-Use the `main.py` script to run the entire download-and-upload process. Provide the YouTube URL, your bot token, and your chat ID as command-line arguments.
-
-**Command Format:**
-```bash
-python main.py "YOUTUBE_URL" "YOUR_BOT_TOKEN" "YOUR_CHAT_ID"
-```
-
-**Example:**
-```bash
-python main.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ" "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11" "987654321"
-```
-
-The script will first download the video to a local `downloads/` directory, then upload it to your specified Telegram chat, and finally, delete the local file.
+4.  **Start the Process:**
+    *   Click the **"Download and Upload"** button.
+    *   The progress and status of the download and upload will be displayed in the output area below the button.
 
 ---
 ## Connect with me <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">
