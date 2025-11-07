@@ -1,50 +1,35 @@
-# 💻 YouTube-Downloader-Colab [![License: MIT][License-Badge]](LICENSE)
+# 📲 YouTube to Telegram Notebook [![License: MIT][License-Badge]](LICENSE)
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=4250F7&background=FF512800&center=true&vCenter=true&width=435&lines=%F0%9D%90%96%F0%9D%90%8E%F0%9D%90%8E%F0%9D%90%83%F0%9D%90%9C%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%9F%F0%9D%90%AD+%F0%9D%90%8C%F0%9D%90%A2%F0%9D%90%AB%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%AB+%F0%9D%90%99%F0%9D%90%A8%F0%9D%90%A7%F0%9D%90%9E%E2%84%A2)](https://git.io/typing-svg)</p>
-<p align="center">
-<!-- RAINBOW LINE TOP -->
+This project provides a Jupyter Notebook to download a video from YouTube and upload it directly to a Telegram chat.
 
-# ⬇️ YouTube Downloader
-<p>Use <b>YouTube Playlist and single link</b> Direct will download your Google drive, Folder Name is <b>YouTube video</b></p>`
+<a href="https://colab.research.google.com/github/SudoR2spr/YouTube-Downloader-Colab/blob/master/YouTube%20Downloader/YouTube%20Downloader%20WOODcraft.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-# Open notebook here:
-<p align=center><a href="https://colab.research.google.com/github/SudoR2spr/YouTube-Downloader-Colab/blob/master/YouTube%20Downloader/YouTube%20Downloader%20WOODcraft.ipynb" target="_blank">
-    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Colab Link"/>
-  </a></p>  
+## 🚀 Features
 
-### Colab Threatens to Ban, Why?
+*   **Interactive Interface:** A user-friendly interface within the notebook to enter your details and start the process.
+*   **All-in-One:** The entire workflow—downloading, uploading, and cleaning up—is handled within a single notebook.
+*   **No Local Setup:** You can run this directly in Google Colab without any local Python configuration.
 
-**Recent changes in Colaboratory T&C prohibits the following actions and could result in ban from colab[^1].**
+## 🔧 How to Use
 
- - file hosting, media serving, or other web service offerings not related to interactive compute with Colab
- - downloading torrents or engaging in peer-to-peer file-sharing
- -  using a remote desktop or SSH
- - connecting to remote proxies
- -  mining cryptocurrency
- - running denial-of-service attacks
- - password cracking
- 
-using multiple accounts to work around access or resource usage restrictions
+1.  **Open the Notebook:**
+    *   Click the "Open in Colab" badge above to launch the notebook in Google Colaboratory.
 
-This means all the notebooks present in this repository are prohibited and use with your own risk. To discuss, follow up on issue [#00](https://github.com/SudoR2spr/YouTube-Downloader-Colab/issues/).
+2.  **Run the Cells:**
+    *   Run the first code cell to install the necessary libraries.
+    *   Run the second code cell to define the helper functions for downloading and uploading.
 
-The changes are made because resources in Colab are prioritized for interactive use cases.
+3.  **Enter Your Details:**
+    *   In the final cell, you will see an interactive form:
+        *   **YouTube URL:** Paste the URL of the video you want to download.
+        *   **Bot Token:** Enter your secure Telegram bot token. (You can get one from `@BotFather`).
+        *   **Chat ID:** Enter the ID of the chat where you want to send the video. (You can get this from `@userinfobot`).
 
-<img src="https://github.com/SudoR2spr/SudoR2spr/raw/main/assets/line-neon.gif" width="100%"></p>
-<p align="center">
+4.  **Start the Process:**
+    *   Click the **"Download and Upload"** button.
+    *   The progress and status of the download and upload will be displayed in the output area below the button.
 
-
-### ⬇️ YouTube Downloader
-
-<p align="center">
-  <a href="https://github.com/SudoR2spr/YouTube-Downloader-Colab" target="_blank">
-    <img alt="Yt-Downloader" src="https://raw.githubusercontent.com/SudoR2spr/SudoR2spr/main/assets/angel-op/Yt-dlp-angel.png" width="300px">
-  </a>
-</p>
-
-<img src="https://github.com/SudoR2spr/SudoR2spr/raw/main/assets/line-neon.gif" width="100%"></p>
-<p align="center">
-
+---
 ## Connect with me <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">
 <p align="center">
 <a href="https://t.me/Opleech_WD"><img src="https://img.shields.io/badge/-𝐖𝐎𝐎𝐃𝐜𝐫𝐚𝐟𝐭 𝐌𝐢𝐫𝐫𝐨𝐫 𝐙𝐨𝐧𝐞™%20%20-0077B5?style=flat&logo=Telegram&logoColor=white"/></a>
@@ -56,7 +41,4 @@ The changes are made because resources in Colab are prioritized for interactive 
 -----
 ## Credits: [𝐖𝐎𝐎𝐃𝐜𝐫𝐚𝐟𝐭](https://t.me/Farooq_is_KING)
 
-[Colab Badge]:          https://colab.research.google.com/assets/colab-badge.svg
-[Code Issues]:          https://img.shields.io/github/issues/SudoR2spr/YouTube-Downloader-Colab?label=Issues
 [License-Badge]:        https://img.shields.io/badge/License-MIT-blue.svg
-[^1]:                   https://research.google.com/colaboratory/faq.html#limitations-and-restrictions
