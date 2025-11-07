@@ -2,7 +2,7 @@
 
 This project provides a Jupyter Notebook to download a video from YouTube and upload it directly to a Telegram chat.
 
-<a href="https://colab.research.google.com/github/SudoR2spr/YouTube-Downloader-Colab/blob/main/YouTube%20Downloader/YouTube%20Downloader%20WOODcraft.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://colab.research.google.com/github/SudoR2spr/YouTube-Downloader-Colab/blob/master/YouTube%20Downloader/YouTube%20Downloader%20WOODcraft.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 ## 🚀 Features
 
